@@ -1,0 +1,21 @@
+body {
+    background-color: black;
+    animation: moveBackground 10s infinite alternate;
+    text-align: center;
+}
+
+@keyframes moveBackground {
+    from { background-position: 0 0; }
+    to { background-position: 100% 100%; }
+}
+
+h1, h2, h3, h4, h5, h6, p, li {
+    color: purple !important;
+    animation: moveText 5s infinite alternate;
+    font-size: large;
+}
+
+@keyframes moveText {
+    from { transform: rotate(-2deg); }
+    to { transform: rotate(2deg); }
+}
