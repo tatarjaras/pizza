@@ -15,4 +15,5 @@ function displayData(data) {
             <p class="card-text">${data.description}</p>
         </div>
     `;
+    document.getElementById("oké").onclick('click',onclick)
 }
